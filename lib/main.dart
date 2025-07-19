@@ -1,6 +1,10 @@
 import 'package:clone_spotify_juillet/utils/theme/custom_themes/test_showdialog.dart';
 import 'package:flutter/material.dart';
 
+import 'screens/home/route_pages.dart';
+import 'screens/login/signin_page.dart';
+import 'screens/login/signup_page.dart';
+import 'screens/login/splash_page.dart';
 import 'screens/test_theme/test_appbar.dart';
 import 'screens/test_theme/test_bottomsheet.dart';
 import 'screens/test_theme/test_checkbox.dart';
@@ -26,7 +30,7 @@ class MyApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
 
-      home: TestShowDialog(),
+      home: RoutePages(),
     );
   }
 }
